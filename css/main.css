@@ -2,31 +2,45 @@ body {
   margin: 0 auto;
   max-width: 56em;
   padding: 1em 0;
-  text-align:center;
   font-family: Source Code Pro, monospace;
   font-size: 1em;
 }
 
+
 h1 {
   font-family: Barlow, sans-serif;
   font-size: 2em;
+  text-align: center;
 }
 
-mc-field-group {
-  display: block;
-
+p {
+  text-align: center;
 }
 
 label {
   display: block;
+  margin: 0 auto;
 }
 
 input {
   display:block;
+  margin:1em auto;
   height: 40px;
+  width: 320px;
   border-radius: 4px;
 }
 
 footer {
   font-size: .75em;
+  text-align: center;
+}
+
+#coffee-cup {
+  display:block;
+  margin: 0 auto;
+}
+
+#mc_embed_signup {
+  max-width:320px;
+  margin:0 auto;
 }
