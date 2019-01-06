@@ -1,37 +1,32 @@
 body {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 10vw 30vw 10vw;
-  grid-gap: 1em;
-}
-
-header,
-footer {
-  grid-column: 1 / span 5;
-}
-
-main {
-  grid-column: 1 / span 5;
-}
-
-/* Demo Specific Styles */
-body {
   margin: 0 auto;
   max-width: 56em;
   padding: 1em 0;
+  text-align:center;
+  font-family: Source Code Pro, monospace;
+  font-size: 1em;
 }
 
-header,
-main,
-aside,
-footer {
-  background: #eaeaea;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+h1 {
+  font-family: Barlow, sans-serif;
+  font-size: 2em;
 }
 
-header,
+mc-field-group {
+  display: block;
+
+}
+
+label {
+  display: block;
+}
+
+input {
+  display:block;
+  height: 40px;
+  border-radius: 4px;
+}
+
 footer {
-  height: 10vw;;
+  font-size: .75em;
 }
