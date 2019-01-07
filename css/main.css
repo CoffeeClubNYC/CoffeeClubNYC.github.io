@@ -1,11 +1,40 @@
 body {
-  margin: 0 auto;
-  max-width: 56em;
-  padding: 1em 0;
   font-family: Source Code Pro, monospace;
-  font-size: 1em;
+  font-size: 16px;
 }
 
+.container {
+  max-width:32em;
+  width: 80%;
+  padding: 1em 0;
+  margin: 0 auto;
+}
+
+#mc_embed_signup {
+  max-width:32em;
+  margin:0 auto;
+}
+
+.mc-field-group {
+  margin-bottom:1em;
+}
+
+.asterisk {
+  color: red;
+  vertical-align: .25em;
+}
+
+.indicates-required {
+  float:right;
+  font-size:.75em;
+}
+
+.button {
+  background-color: #41475B;
+  border:none;
+  color: #ffffff;
+  text-transform: uppercase;
+}
 
 h1 {
   font-family: Barlow, sans-serif;
@@ -19,15 +48,18 @@ p {
 
 label {
   display: block;
-  margin: 0 auto;
+  margin-bottom: .50em;
 }
 
 input {
   display:block;
-  margin:1em auto;
+  width:32em;
   height: 40px;
-  width: 320px;
   border-radius: 4px;
+  border: 2px solid #41475B;
+  padding: .25em 1em;
+  font-size: 1em;
+  box-sizing: border-box;
 }
 
 footer {
@@ -38,9 +70,4 @@ footer {
 #coffee-cup {
   display:block;
   margin: 0 auto;
-}
-
-#mc_embed_signup {
-  max-width:320px;
-  margin:0 auto;
 }
